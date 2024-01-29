@@ -32,7 +32,6 @@ export class Customer extends Entity {
   }
 
   get address(): Address {
-    console.log(this._address)
     return this._address;
   }
 
